@@ -1,6 +1,7 @@
 .main{
     &__presentation{
         width: 100%;
+        margin-bottom: -1em;
         &__image{
             width: 100%;
             height: auto;
@@ -24,7 +25,7 @@
             width: 80%;
             margin: 0 10%;
             position: absolute;
-            bottom: 3em;
+            top: 15em;
             font-family: 'Esteban';
             font-weight: 400;
             line-height: 1.8em;
@@ -114,14 +115,35 @@
 
     &__phrase{
         width: 100%;
+        position: relative;
         &__image{
             width: 100%;
             height: auto;
-            position: relative;
+            opacity: .5;
         }
 
         &__text{
             position: absolute;
+            top: 1.5em;
+            font-family: 'Poppins';
+            font-weight: 500;
+            line-height: 1.4em;
+            font-size: 2rem;
+            width: 100%;
+            text-align: center;
+            color: black;
+        }
+
+        &__author{
+            position: absolute;
+            bottom: 1em;
+            width: 100%;
+            font-family: 'Esteban';
+            font-weight: bold;
+            line-height: 1.8em;
+            font-size: 1rem;
+            text-align: center;
+            color: black;
         }
     }
 }

@@ -16,6 +16,7 @@ body {
 
 .main__presentation {
   width: 100%;
+  margin-bottom: -1em;
 }
 .main__presentation__image {
   width: 100%;
@@ -38,7 +39,7 @@ body {
   width: 80%;
   margin: 0 10%;
   position: absolute;
-  bottom: 3em;
+  top: 15em;
   font-family: "Esteban";
   font-weight: 400;
   line-height: 1.8em;
@@ -117,14 +118,34 @@ body {
 }
 .main__phrase {
   width: 100%;
+  position: relative;
 }
 .main__phrase__image {
   width: 100%;
   height: auto;
-  position: relative;
+  opacity: 0.5;
 }
 .main__phrase__text {
   position: absolute;
+  top: 1.5em;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 1.4em;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+.main__phrase__author {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  font-family: "Esteban";
+  font-weight: bold;
+  line-height: 1.8em;
+  font-size: 1rem;
+  text-align: center;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
