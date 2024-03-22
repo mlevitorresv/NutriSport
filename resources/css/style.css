@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Esteban&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -176,6 +177,55 @@ body {
   font-size: 1rem;
   text-align: center;
   color: black;
+}
+
+.footer {
+  margin-top: -0.3em;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.footer__data {
+  text-align: center;
+}
+.footer__data__title {
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 1.4em;
+  font-size: 3rem;
+}
+.footer__data__element {
+  font-family: "Esteban";
+  font-weight: 400;
+  line-height: 1.8em;
+  font-size: 1.3rem;
+}
+.footer__open {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__open__text {
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 1.4em;
+  font-size: 1.5rem;
+}
+.footer__open__schedule {
+  font-family: "Esteban";
+  font-weight: 400;
+  line-height: 1.8em;
+  font-size: 1rem;
+}
+.footer__social {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__social__icon {
+  width: 25px;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
