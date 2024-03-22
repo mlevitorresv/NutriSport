@@ -64,6 +64,7 @@ body {
 }
 .main__products__elements__element {
   width: 256px;
+  margin-bottom: 1em;
   cursor: pointer;
 }
 .main__products__elements__element__image {
@@ -87,7 +88,7 @@ body {
   grid-column: span 2;
   width: 100%;
   margin-top: 1em;
-  padding: 2em;
+  padding: 1em 2em;
   background-color: #F1A638;
   border: none;
   font-family: "Poppins";
