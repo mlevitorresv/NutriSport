@@ -180,6 +180,43 @@ body {
   color: black;
 }
 
+.about {
+  color: black;
+  padding: 3em 5% 1.5em;
+}
+.about__description__title {
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 1.4em;
+  font-size: 2.2rem;
+  margin-bottom: 0.5em;
+}
+.about__description__info {
+  font-family: "Esteban";
+  font-weight: 400;
+  line-height: 1.8em;
+  font-size: 1.1rem;
+  margin-bottom: 2.5em;
+}
+.about__data {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Esteban";
+  font-weight: 400;
+  line-height: 1.8em;
+  font-size: 1.1rem;
+  margin-bottom: 3.5em;
+}
+.about__data__element {
+  width: fit-content;
+}
+.about__data__element__text {
+  font-weight: bold;
+}
+.about__data__element__text-slim {
+  font-size: 0.8em;
+}
+
 .footer {
   margin-top: -0.3em;
   padding: 2em 0.5em;
