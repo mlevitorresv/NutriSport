@@ -240,7 +240,29 @@ body {
 }
 
 .contact {
-  background-image: url("resources/assets/backContact.jpg");
+  background-image: url("../assets/backContact.jpg");
+  padding: 5em 5% 2.5em;
+}
+.contact__intro__title {
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 1.4em;
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+}
+.contact__intro__text {
+  font-family: "Esteban";
+  font-weight: 400;
+  line-height: 1.8em;
+  font-size: 1rem;
+}
+.contact__intro__text-bold {
+  font-family: "Esteban";
+  font-weight: 400;
+  line-height: 1.8em;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5em;
 }
 
 .footer {
