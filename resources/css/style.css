@@ -216,6 +216,28 @@ body {
 .about__data__element__text-slim {
   font-size: 0.8em;
 }
+.about__products {
+  margin-top: 1.5em;
+}
+.about__products__title {
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 1.4em;
+  font-size: 2.2rem;
+  margin-bottom: 0.5em;
+}
+.about__products__list {
+  margin-left: 10%;
+  font-family: "Esteban";
+  font-weight: 400;
+  line-height: 1.8em;
+  font-size: 1.1rem;
+  margin-bottom: 2.5em;
+}
+.about__products__list__element__sublist {
+  margin-left: 15%;
+  font-size: 0.9rem;
+}
 
 .footer {
   margin-top: -0.3em;
