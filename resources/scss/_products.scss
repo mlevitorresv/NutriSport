@@ -15,4 +15,9 @@
             font-size: 1.1rem;
         }
     }
+
+    &__elements{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

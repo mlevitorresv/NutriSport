@@ -255,6 +255,10 @@ body {
   line-height: 1.8em;
   font-size: 1.1rem;
 }
+.products__elements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
 .contact {
   background-image: url("../assets/backContactMobile.jpg");
