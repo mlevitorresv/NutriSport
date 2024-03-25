@@ -240,7 +240,8 @@ body {
 }
 
 .contact {
-  background-image: url("../assets/backContact.jpg");
+  background-image: url("../assets/backContactMobile.jpg");
+  background-size: cover;
   padding: 5em 5% 2.5em;
 }
 .contact__intro__title {
@@ -263,6 +264,32 @@ body {
   font-size: 1rem;
   font-weight: bold;
   margin-top: 0.5em;
+}
+.contact__form {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+}
+.contact__form__input, .contact__form__area {
+  margin-bottom: 1em;
+  border: none;
+  font-family: "Esteban";
+  font-weight: 400;
+  line-height: 1.8em;
+  font-size: 1rem;
+  padding: 0.5em 0.5em;
+}
+.contact__form__input:hover, .contact__form__area:hover {
+  opacity: 0.5;
+}
+.contact__form__button {
+  padding: 1em 2em;
+  background-color: #F1A638;
+  border: none;
+  width: 40%;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 0.8rem;
 }
 
 .footer {
