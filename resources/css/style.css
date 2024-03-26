@@ -24,6 +24,10 @@ body {
   font-size: 1rem;
   margin-top: 0;
 }
+.header a {
+  color: black;
+  text-decoration: none;
+}
 .header__menu {
   display: none;
   flex-direction: column;
