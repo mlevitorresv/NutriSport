@@ -286,6 +286,53 @@ body {
   margin: 0.5em;
 }
 
+.details__intro {
+  padding: 1em 5% 3em;
+  background-color: black;
+  width: 100%;
+}
+.details__intro__title {
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 1.4em;
+  font-size: 2.5rem;
+}
+.details__intro__text {
+  font-family: "Esteban";
+  font-weight: 400;
+  line-height: 1.8em;
+  font-size: 1.1rem;
+}
+.details__slider {
+  position: relative;
+  width: 80%;
+  min-width: 245px;
+  overflow: hidden;
+  margin: 3em auto;
+}
+.details__slider__image {
+  display: none;
+  width: 100%;
+}
+.details__slider img {
+  width: 100%;
+  height: auto;
+}
+.details__slider .fi {
+  position: absolute;
+  z-index: 10;
+  margin: 0;
+}
+.details__slider .fi__prev {
+  left: 2%;
+  top: 50%;
+  transform: rotate(180deg);
+}
+.details__slider .fi__next {
+  right: 2%;
+  top: 50%;
+}
+
 .contact {
   background-image: url("../assets/backContactMobile.jpg");
   background-size: cover;
