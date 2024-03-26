@@ -66,4 +66,30 @@
         margin-bottom: 1.5em;
         margin-left: 55%;
     }
+
+    &__accordions{
+        width: 90%;
+        margin: 1.5em 5%;
+        &__button{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+
+            &:hover{
+                opacity: .8;
+            }
+        }
+        &__info{
+            padding: 0 18px;
+            color: black;
+            display: none;
+            overflow: hidden;
+        }
+    }
 }
