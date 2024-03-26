@@ -348,15 +348,19 @@ body {
 .details__accordions {
   width: 90%;
   margin: 1.5em 5%;
+  font-family: "Esteban";
+  font-weight: 400;
+  line-height: 1.8em;
+  font-size: 1rem;
 }
 .details__accordions__button {
   background-color: black;
   color: white;
   cursor: pointer;
-  padding: 18px;
+  padding: 1.2em;
   width: 100%;
   text-align: left;
-  border: none;
+  border: 1px solid white;
   outline: none;
   transition: 0.4s;
 }
@@ -364,10 +368,19 @@ body {
   opacity: 0.8;
 }
 .details__accordions__info {
-  padding: 0 18px;
+  background-color: #f5f5f5;
+  padding: 0.3em 0.3em;
   color: black;
   display: none;
   overflow: hidden;
+}
+.details__accordions__info__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.details__accordions__info__table th, .details__accordions__info__table td {
+  border: 1px solid black;
+  padding: 0.5em;
 }
 
 .contact {
