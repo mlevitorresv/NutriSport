@@ -78,7 +78,6 @@
         }
 
         &__button{
-            grid-column: span 2;
             width: 100%;
             margin-top: 1em;
             padding: 1em 2em;
@@ -164,5 +163,41 @@
             }
         }
        
+        &__products{
+            &__title{
+                font-size: 4rem;
+            }
+            &__elements{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 2em;
+                &__element{
+                    width: 100%;
+                }
+            }
+
+            &__button{
+                grid-column: span 3;
+                width: 30%;
+                margin: 0 35%;
+                font-size: 1.1rem;
+            }
+        }
+
+        &__about{
+            padding: 5em 15%;
+        }
+
+        &__phrase{
+            height: 20em;
+            overflow: hidden;
+            &__text{
+                top: 45%;
+            }
+    
+            &__author{
+                top: 55%;
+            }
+        }
     }
 }

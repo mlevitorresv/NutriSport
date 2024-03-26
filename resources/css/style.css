@@ -145,7 +145,6 @@ body {
   text-align: center;
 }
 .main__products__button {
-  grid-column: span 2;
   width: 100%;
   margin-top: 1em;
   padding: 1em 2em;
@@ -218,6 +217,36 @@ body {
   }
   .main__presentation__description {
     top: 60%;
+  }
+  .main__products__title {
+    font-size: 4rem;
+  }
+  .main__products__elements {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+  }
+  .main__products__elements__element {
+    width: 100%;
+  }
+  .main__products__button {
+    grid-column: span 3;
+    width: 30%;
+    margin: 0 35%;
+    font-size: 1.1rem;
+  }
+  .main__about {
+    padding: 5em 15%;
+  }
+  .main__phrase {
+    height: 20em;
+    overflow: hidden;
+  }
+  .main__phrase__text {
+    top: 45%;
+  }
+  .main__phrase__author {
+    top: 55%;
   }
 }
 .about {
