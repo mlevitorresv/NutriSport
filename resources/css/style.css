@@ -98,11 +98,11 @@ body {
   width: 80%;
   margin: 0 10%;
   position: absolute;
-  top: 80%;
+  top: 15em;
   font-family: "Esteban";
   font-weight: 400;
   line-height: 1.8em;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 .main__products {
   background-color: black;
@@ -208,6 +208,18 @@ body {
   color: black;
 }
 
+@media only screen and (min-width: 1000px) {
+  .main__presentation {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .main__presentation__title {
+    top: 50%;
+  }
+  .main__presentation__description {
+    top: 60%;
+  }
+}
 .about {
   color: black;
   padding: 3em 5% 1.5em;
