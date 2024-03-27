@@ -526,7 +526,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.contact__form__input, .contact__form__area {
+.contact__form__input, .contact__form__input-email, .contact__form__area {
   margin-bottom: 1em;
   border: none;
   font-family: "Esteban";
@@ -535,7 +535,7 @@ body {
   font-size: 1rem;
   padding: 0.5em 0.5em;
 }
-.contact__form__input:hover, .contact__form__area:hover {
+.contact__form__input:hover, .contact__form__input-email:hover, .contact__form__area:hover {
   opacity: 0.5;
 }
 .contact__form__button {
@@ -548,6 +548,25 @@ body {
   font-size: 0.8rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .contact {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact__intro {
+    width: 40%;
+  }
+  .contact__form {
+    margin-top: 0;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+  .contact__form__input-email, .contact__form__area {
+    grid-column: span 2;
+  }
+}
 .footer {
   margin-top: -0.3em;
   padding: 2em 0.5em;
