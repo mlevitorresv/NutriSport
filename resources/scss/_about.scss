@@ -65,3 +65,46 @@
         }
     }
 }
+
+
+
+@media only screen and (min-width: 1000px){
+    .about{
+        &__description{
+            display: flex;
+            justify-content: space-between;
+
+            &__info{
+                width: 50%;
+            }
+        }
+
+        &__data{
+            width: 50%;
+            margin-left: 50%;
+            justify-content: space-around;
+        }
+
+        &__map{
+            height: 500px;
+        }
+
+        &__products{
+            display: flex;
+            justify-content: space-between;
+            &__title{
+                font-family: 'Poppins';
+                font-weight: 500;
+                line-height: 1.4em;
+                font-size: 2.2rem;
+                margin-bottom: .5em;
+            }
+    
+            &__list{
+                width: 60%;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}

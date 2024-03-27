@@ -308,6 +308,39 @@ body {
   font-size: 0.9rem;
 }
 
+@media only screen and (min-width: 1000px) {
+  .about__description {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about__description__info {
+    width: 50%;
+  }
+  .about__data {
+    width: 50%;
+    margin-left: 50%;
+    justify-content: space-around;
+  }
+  .about__map {
+    height: 500px;
+  }
+  .about__products {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about__products__title {
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 1.4em;
+    font-size: 2.2rem;
+    margin-bottom: 0.5em;
+  }
+  .about__products__list {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .products__intro {
   padding: 1em 5% 3em;
   background-color: black;
