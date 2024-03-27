@@ -114,24 +114,25 @@
 @media only screen and (min-width: 1000px){
     .details{
         &__slider{
-            width: 50%;
-            margin: 3em 5% 1.5em;
+            width: 35%;
+            margin: 3em 5% 1.5em 15%;
             display: inline-block;
         }
 
         &__info{
             display: inline-block;
-            width: 35%;
+            width: 30%;
             position: absolute;
             top: 3em;
             margin: 0;
+            padding: 0;
         }
 
         &__shop{
             display: inline-block;
-            width: 323.6px;
+            width: 273px;
             position: absolute;
-            top: 10em;
+            top: 12em;
             margin: 0;
         }
 
