@@ -398,6 +398,9 @@ body {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+.details {
+  position: relative;
+}
 .details__slider {
   position: relative;
   width: 90%;
@@ -495,6 +498,31 @@ body {
   padding: 0.5em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .details__slider {
+    width: 50%;
+    margin: 3em 5% 1.5em;
+    display: inline-block;
+  }
+  .details__info {
+    display: inline-block;
+    width: 35%;
+    position: absolute;
+    top: 3em;
+    margin: 0;
+  }
+  .details__shop {
+    display: inline-block;
+    width: 323.6px;
+    position: absolute;
+    top: 10em;
+    margin: 0;
+  }
+  .details__accordions {
+    width: 70%;
+    margin: 1.5em 15%;
+  }
+}
 .contact {
   background-image: url("../assets/backContactMobile.jpg");
   background-size: cover;
