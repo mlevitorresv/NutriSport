@@ -55,3 +55,27 @@
         }
     }
 }
+
+
+@media only screen and (min-width: 1000px){
+    .footer{
+        margin-top: 0;
+        flex-direction: row;
+        justify-content: space-around;
+
+        &__open{
+    
+            &__text{
+                margin-right: .5em;
+            }
+
+            &__schedule{
+                padding-top: .3em;
+            }
+        }
+        &__social{
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}

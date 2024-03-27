@@ -555,4 +555,22 @@ body {
   height: auto;
 }
 
+@media only screen and (min-width: 1000px) {
+  .footer {
+    margin-top: 0;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .footer__open__text {
+    margin-right: 0.5em;
+  }
+  .footer__open__schedule {
+    padding-top: 0.3em;
+  }
+  .footer__social {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
