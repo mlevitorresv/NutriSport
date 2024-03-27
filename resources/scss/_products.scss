@@ -50,3 +50,17 @@
         }
     }
 }
+
+
+@media only screen and (min-width: 1000px){
+    .products{
+        &__intro{            
+            padding: 1em 15% 3em;
+        }   
+        &__elements{
+            width: 70%;
+            margin: 2em auto 2em;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}

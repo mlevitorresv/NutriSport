@@ -388,6 +388,16 @@ body {
   margin: 0.5em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .products__intro {
+    padding: 1em 15% 3em;
+  }
+  .products__elements {
+    width: 70%;
+    margin: 2em auto 2em;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 .details__slider {
   position: relative;
   width: 90%;
