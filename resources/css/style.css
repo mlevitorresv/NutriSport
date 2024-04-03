@@ -554,6 +554,7 @@ body {
   margin-top: 5em;
   display: flex;
   flex-direction: column;
+  height: 57.9vh;
 }
 .contact__form__input, .contact__form__input-email, .contact__form__area {
   margin-bottom: 1em;
